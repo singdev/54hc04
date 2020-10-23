@@ -41,7 +41,7 @@ animation-iteration-count: 1;}
 
 .user__details2{padding: 15px;margin-top:30px;}
 
-.user__name2{font-size:40px;text-align:left;letter-spacing:2px;color:#444;font-weight:900;
+.user__name2{font-size:40px;text-align:left;letter-spacing:2px;color:#6e0009;font-weight:900;
   -webkit-animation: fadein 2s; /* Safari 4+ */
   -moz-animation:    fadein 2s; /* Fx 5+ */
   -o-animation:      fadein 2s; /* Opera 12+ */
@@ -50,7 +50,14 @@ animation-iteration-count: 1;}
 
 .user__name2:hover{}
 
-.user__title2{margin:0 5px;text-align:left;color:#777;letter-spacing:3px;}
+.user__title2{
+  margin:0 5px;
+  text-align:left;
+  color:#6e0009;
+  letter-spacing:3px; 
+  font-weight:500;
+font-weight: bolder;
+}
 
 
 @-webkit-keyframes fadein {
@@ -288,10 +295,10 @@ hr {
     width: 50px;
     height: 50px;
     background-color: #fff;
-    color:#0b509e;
+    color:#6e0009;
     cursor: pointer;
     outline: none;
-    border: 3px solid #0b509e;
+    border: 3px solid#6e0009;
     border-radius: 50%;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -320,7 +327,7 @@ hr {
     z-index: 99;
   }*/
   #back-to-top-btn:hover, #back-to-top-btn:focus {
-    background-color: #0b509e;
+    background-color: #6e0009;
     color: #fff;  
   }
   /* Animations */
@@ -358,7 +365,7 @@ hr {
 
 /*############## All ################*/
 
-.footer {background:#999;	color:#fff;	text-align:center;}
+.footer {background:#6e0009;	color:#fff;	text-align:center;}
 .footer p {	
     margin:0;
     padding:10px;
