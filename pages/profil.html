@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <meta name="author" content="Name">
+    <link rel="shortcut icon" href="Images/logo-black.png" type="image/vnd.microsoft.icon">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <title>Med.Poche</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+
+<body>
+
+    <main>
+   <!-- header start -->
+   <nav class="navbar">
+	<div class="nav-container">
+	  <div class="nav-header">
+		<div class="logo">
+		  <!-- Logo -->
+		  <a href="#">Med.Poche</a>
+		</div>
+	  </div>
+  
+	  <input type="checkbox" id="menu-toggle">
+	  <label for="menu-toggle" class="menu-show"><i class="fa fa-bars"></i></label>
+  
+	  <div class="nav">
+		<ul class="nav-links">
+		  <li class="nav-item"><a href="#" class="nav-link">Accueil</a></li>
+		<li class="nav-item has-dropdown">
+			<a href="#" class="nav-link">Médecine</a>
+			<ul class="dropdown-menu">
+			  <li class="nav-item"><a class="nav-link" href="#">Cours</a></li>
+			  <li class="nav-item"><a class="nav-link" href="#">Exercices</a></li>
+			  <li class="nav-item"><a class="nav-link" href="#">Livres</a></li>
+			</ul>
+		  </li>
+		  <li class="nav-item has-dropdown">
+			<a href="#" class="nav-link">Pharmacie</a>
+			<ul class="dropdown-menu">
+			  <li class="nav-item"><a class="nav-link" href="#">Cours</a></li>
+			  <li class="nav-item"><a class="nav-link" href="#">Exercices</a></li>
+			  <li class="nav-item"><a class="nav-link" href="#">Livres</a></li>
+			</ul>
+		  </li>
+		  
+		  <label for="menu-toggle" class="menu-hide"><i class="fa fa-times"></i></label>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+  <!-- header end -->
+        <header>
+            <section class="user_vert">
+                <div class="user__image2"></div>
+                <div class="user__details2">
+                    <h1 class="user__name2">Sara</h1>
+                    <p class="user__title2 animated fadeInLeft">Filière : Sage Femme</p>
+                    <p class="user__title2 animated fadeInLeft">Niveau d'étude : 1ère année</p>
+                </div>
+            </section>
+            <hr>
+        </header>
+        <section>
+            <div class="container">
+                <div class="card">
+                    <div class="face hidden">
+                        <div class="content">
+                            <a class="btn btn-simple" href="cours.html">
+                                ACCÉDER
+                            </a>
+                        </div>
+                    </div>
+                    <div class="face front">
+                        <i class="fa fa-star"></i>
+                        <h2>COURS</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face hidden">
+                        <div class="content">
+                            <a class="btn btn-simple" href="exercices.html">
+                                ACCÉDER
+                            </a>
+                        </div>
+                    </div>
+                    <div class="face front">
+                        <i class="fa fa-star"></i>
+                        <h2>EXERCICES</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face hidden">
+                        <div class="content">
+                            <a class="btn btn-simple" href="livres.html">
+                                ACCÉDER
+                            </a>
+                        </div>
+                    </div>
+                    <div class="face front">
+                        <i class="fa fa-life-ring"></i>
+                        <h2>LIVRES</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-------------###-----****** Button back to top ******-----###------------>
+    <button id="back-to-top-btn">
+        <i class="fa fa-angle-double-up"></i>
+    </button>
+    <footer class="footer">
+        <p>Med.Poche - <a target="blank" href="#">Copyright © Octobre 2020 Tous droits réservés - Toute
+                réproduction interdite</a></p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+</body>
+
+</html>
